@@ -1,0 +1,61 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Tuffy';
+}
+
+body {
+    display: grid;
+    grid-template-areas: 'menu menu menu menu'
+                         'secao secao secao secao'
+                         'doces-salgados doces-salgados doces-salgados doces-salgados'
+                         'kits kits kits kits'
+                         'contatos contatos contatos contatos';
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.menu {
+    grid-area: menu;
+    background-color: hotpink;
+    border-radius: 1%;
+}
+
+.menu .menu-informacoes{
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75px;
+}
+
+.secao-principal {
+    grid-area: secao;
+    height: 89vh;
+    background: url(../imagens/Fundo-da-mensagem-inicial.jpeg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.secao-principal h2 {
+    color: mistyrose;
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+.secao-principal h2:hover {
+    box-shadow: 0 0 20px #fff;
+}
+
+.doces-salgados {
+    grid-area: doces-salgados;
+}
+
+.kits {
+    grid-area: kits;
+}
+
+.contatos {
+    grid-area: contatos;
+}
