@@ -30,7 +30,8 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-area: secao;
-    height: 89vh;
+    /* height: 89vh; */
+    margin-bottom: 20px;
 }
 
 .secao-principal div a img {
