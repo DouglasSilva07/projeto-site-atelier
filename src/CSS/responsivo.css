@@ -1,0 +1,54 @@
+@media (max-width: 900px) {
+   .menu .menu-responsivo {
+    display: block;
+   }
+
+   .menu nav ul {
+    display: none;
+   }
+
+   .menu input:checked ~ ul{
+    display: block;
+   }
+
+   .menu nav {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    z-index: 1;
+    background-color: black;
+   }
+
+   .menu nav ul {
+    width: 200px;
+    padding: 20px;
+   }
+
+   .menu nav ul a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+   }
+}
+
+@media (max-width: 500px) {
+    .menu .menu-informacoes {
+        padding: 20px 10px;
+    }
+
+    .secao-principal {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .doces-salgados div img {
+    border: 2px solid #ffffff;}
+
+    .contatos {
+        padding: 40px 0px;
+    }
+
+    .contatos nav ul li a {
+        margin: 10px;
+    }
+}
