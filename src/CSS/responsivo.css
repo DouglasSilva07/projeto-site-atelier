@@ -44,6 +44,13 @@
     .doces-salgados div img {
     border: 2px solid #ffffff;}
 
+    .kits {
+        display: grid;
+        grid-template-columns: repeat(1, 0.5fr);
+        justify-content: center;
+         background: url(../imagens/linha-corações.png) center center;
+    }
+
     .contatos {
         padding: 40px 0px;
     }
